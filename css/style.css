@@ -1,0 +1,84 @@
+body,html{
+    height:100%;
+    overflow-x: hidden;
+    font-family: 'News Cycle', sans-serif;
+    background-color: black;
+}
+
+#cover{
+    background: url("../img/coorg.jpg") center center no-repeat;
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.textmy{
+    color: white;
+}
+
+.carousel{
+    padding: 0.625rem;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 55rem;
+}
+
+.carousel-item > .carousel-caption{
+    color: black;
+}
+.card-deck{
+    padding: 1rem;
+}
+
+iframe{
+    width: 100%;
+    border:none;
+    height: 20vmax;
+}
+
+@media(orientation: portrait)
+{
+    iframe{
+        height: 35vmax;
+    }
+}
+
+blockquote{
+    padding: 0.625rem;
+    border-style: groove;
+    border-color:white;
+    text-align: center;
+    margin-left: 0px;
+    border-width: 1px;
+}
+
+main{
+    background-image: url("../img/gokarna3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+main li{
+    list-style-type: none;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #343a40!important;
+  } 
+footer a{
+    padding: 0.1rem;
+}
